@@ -1,3 +1,4 @@
+package Java_Code;
 import java.util.Scanner;
 
 public class Array {

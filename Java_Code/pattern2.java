@@ -1,12 +1,16 @@
+package Java_Code;
 import java.util.Scanner;
 
-public class table {
+public class pattern2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number: ");
         int n = sc.nextInt();
-        for (int i = 1; i < 11; i++) { // Start the loop from 1, not 0
-            System.out.println(n*i);
+        for(int i = 1; i<=n;i++) {
+            for(int j= 1; j<=i;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
         }
     }
 }

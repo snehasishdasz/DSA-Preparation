@@ -1,3 +1,4 @@
+package Java_Code;
 /*Java Program to find the second largest and second smallest elements in the array using Functions*/
 import java.util.Scanner;
 import java.util.*;

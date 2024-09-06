@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class bubblesort {
     public static void main(String[] args) {
-        int arr[]={5,9,3,1,8};
+        int arr[]={4,1,3,9,7};
         int temp;
-        for(int i=0;i<arr.length-1;i++){
+        for(int i=0;i<arr.length;i++){
             for(int j=0;j<arr.length-1-i;j++){
                 if(arr[j]>arr[j+1]){
                     temp = arr[j];
